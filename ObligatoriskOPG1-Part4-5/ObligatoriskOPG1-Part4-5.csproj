@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>ObligatoriskOPG1_Part4_5</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ObligatoriskOPG1">
+      <HintPath>..\..\ObligatoriskOPG1\ObligatoriskOPG1\bin\Debug\net6.0\ObligatoriskOPG1.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
